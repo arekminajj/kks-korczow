@@ -2,9 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//bootstrap imports
+import Container from 'react-bootstrap/Container';
+
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <title>KKS Korczów - LIGA KURWA WYŻEJ</title>
         <meta name="description" content="KKS Korczów - najlepsza drużyna w światowej lidze. Może nie gramy dobrze za to nie grzeszymy umiejętnościami grania w piłke. Mamy za to kiboli." />
@@ -51,9 +54,10 @@ export default function Home() {
         </div>
       </main>
       <footer>
-        <a href='https://www.counters-free.net/'>https://www.counters-free.net/</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=bf7a34a574afe9b0919a301fef2babb3f2edc57c'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/830879/t/0"></script>
+        <footer>
+          <h2 className="text-center"><a target="_blank" href="https://github.com/arekminajj">❤️</a></h2>
+        </footer>
       </footer>
-    </div>
+    </Container>
   )
 }
