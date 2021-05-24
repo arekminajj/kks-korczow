@@ -15,6 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
           korczów to jest <a target="_blank" href="https://pl.wikipedia.org/wiki/Pot%C4%99gi">potęga!</a>
         </h1>
+        <h1 className={styles.title}>
+          Aleks to jest chuj!
+        </h1>
 
         <p className={styles.description}>
           Korczów najlepszy jest, Korczów to chuligani, Korczów KKS
