@@ -21,6 +21,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Korczów najlepszy jest, Korczów to chuligani, Korczów KKS
+          0x0F2DC633b7F3d5cB80BC1d697a951b7961dB8474
         </p>
 
         <div className={styles.grid}>
